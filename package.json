@@ -1,0 +1,25 @@
+{
+  "name": "memory-time-travel",
+  "version": "1.0.0",
+  "description": "Travel back in your agent's memory to see what it knew at any point in time",
+  "main": "time_travel.js",
+  "scripts": {
+    "travel": "node time_travel.js",
+    "test": "node time_travel.js --hours-ago 1"
+  },
+  "keywords": [
+    "novyx",
+    "memory",
+    "time-travel",
+    "openclaw",
+    "agent",
+    "context"
+  ],
+  "author": "Novyx Labs",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "minimist": "^1.2.8"
+  }
+}
